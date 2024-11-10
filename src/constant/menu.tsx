@@ -39,7 +39,7 @@ export const PERKS = [
     icon: WaypointsIcon,
     title: "Report Section",
     description:
-      "Easily integrate with your existing social media platforms and tools.",
+      "Report incidents of violence, harassment, or legal concerns with full confidentiality, while accessing guidance and support from professionals",
   },
   {
     icon: ZapIcon,
