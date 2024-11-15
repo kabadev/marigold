@@ -5,9 +5,7 @@ const layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="flex ">
       <Sidebar />
-      <div className="p-4 md:ml-[250px] w-[100%] pt-6 bg-accent min-h-screen">
-        {children}
-      </div>
+      <div className=" md:ml-[250px] w-[100%] pt-6  ">{children}</div>
     </div>
   );
 };

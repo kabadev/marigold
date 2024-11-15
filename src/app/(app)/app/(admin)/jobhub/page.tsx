@@ -8,7 +8,7 @@ const page = async () => {
   const jobs = await fetchJobs(50);
 
   return (
-    <div className="pt-6">
+    <div className="py-6 px-4">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">Jobs</h1>
         <Link className="" href={"/app/jobhub/new"}>

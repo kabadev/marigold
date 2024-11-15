@@ -90,7 +90,7 @@ const AddNew = () => {
   }
 
   return (
-    <div className="relative">
+    <div className="relative p-4">
       {isSubmitting && <Overlay />}
       <h1 className="text-2xl font-bold">Add Article</h1>
       <div className="mt-6 bg-card p-4 pb-6">

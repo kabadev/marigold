@@ -58,7 +58,7 @@ const Navbar = () => {
         <Link className="text-sm" href="/app/jobs">
           Jobs
         </Link>
-        <Link className="text-sm" href="/app/report">
+        <Link className="text-sm" href="/app/reports">
           Report
         </Link>
       </nav>

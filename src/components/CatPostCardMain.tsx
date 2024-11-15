@@ -82,7 +82,7 @@ export default function CatPostCardMain({ articles, cardTitle, url }: any) {
               </Link>
               <div className="flex-1 space-y-1  w-[70%]">
                 <h4 className="font-medium leading-tight hover:text-primary transition-colors">
-                  <Link href="#">
+                  <Link href={`/app/resources/articles/${article.slug}`}>
                     {article.title.length > 70
                       ? article.title.slice(0, 70) + "..."
                       : article.title}

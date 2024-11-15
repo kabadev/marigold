@@ -15,7 +15,7 @@ import React from "react";
 const Sidebar = () => {
   const { user } = useUser();
   return (
-    <div className="fixed h-[calc(100vh-70px)] w-[250px] bg-card p-4 overflow-y-auto">
+    <div className="fixed h-[calc(100vh-70px)] w-[250px] border-r bg-card p-4 overflow-y-auto">
       {/* <div className="p-4 bg-accent mt-2 rounded-md">
         <Image
           src={user?.imageUrl || ""}
